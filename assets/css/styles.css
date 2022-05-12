@@ -28,7 +28,21 @@ html {
 .header-nav {
   border-bottom: 1px solid rgb(212, 212, 212);
 }
-
+.seller {
+  color: #4b591e;
+}
+.connect {
+  color: #4b591e;
+}
+.user {
+  color: #4b591e;
+}
+.cart {
+  color: #4b591e;
+}
+.search {
+  color: #4b591e;
+}
 .left-nav {
   display: flex;
 }
@@ -63,11 +77,6 @@ html {
   height: 100px;
 }
 
-/* img {
-width: 150px; 
-height: 150px;
-} */
-
 .connect a{
     margin-right: 10px;
 }
@@ -84,13 +93,6 @@ height: 150px;
   display: flex;
 }
 
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-} */
 li {
   float: left;
 }
@@ -154,22 +156,8 @@ li {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.imagechange {
-  width: 1200px;
-  height: 500px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 15%;
-  -moz-border-radius: 3%;
-  -webkit-border-radius: 3%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 9;
-}
-
 .background {
-    background-image: url("/assets/images/Sofa-phong-khach-nha-ong-3m.webp");
+    background-image: url("/assets/images/e13b62ede88caafff7b9c2a41afcc92f.jpg");
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
@@ -480,6 +468,7 @@ li {
 
 .follow h5 {
     margin: 20px 0px;
+    color: #4b591e;
 }
 
 .follow a {
@@ -492,7 +481,9 @@ li {
     color: grey !important;
     margin-right: 8px;
 }
-
+.address-contact {
+  color: #4b591e;
+}
 .footer-nav {
     background-color: #4b591e;
     padding: 10px 0px;
