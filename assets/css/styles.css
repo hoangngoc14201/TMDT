@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial", sans-serif !important;
+}
+
+html {
+  font-family: "Questrial", sans-serif !important;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.container {
+    padding: 0;
+    width: 70% !important;
+    max-width: 70%;
+}
+
+.header-nav {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.left-nav {
+  display: flex;
+}
+
+.logo img {
+  width: 200px;
+  height: 80px;
+}
+
+.left-nav div {
+  border-right: 1px solid rgb(212, 212, 212);
+  padding: 0px 20px;
+}
+
+.left-nav div a {
+  line-height: 30px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-nav div {
+  border-left: 1px solid rgb(212, 212, 212);
+  line-height: 30px;
+  padding: 0px 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* img {
+width: 150px; 
+height: 150px;
+} */
+
+.connect a{
+    margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.menu-detail li a {
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+} */
+li {
+  float: left;
+}
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #4b591e !important;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #fcce22;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown a {
+    cursor: pointer;
+}
+
+.dropdown-content a {
+  color: #4b591e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #fcce22;
+}
+.dropdown:hover .sub-menu {
+  display: block;
+}
+li {
+  display: inline-block;
+}
+.dropdown {
+  position: static;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcce22;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #4b591e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.imagechange {
+  width: 1200px;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15%;
+  -moz-border-radius: 3%;
+  -webkit-border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9;
+}
+
+.background {
+    background-image: url("/assets/images/Sofa-phong-khach-nha-ong-3m.webp");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.content {
+  color: #4b591e;
+}
+
+.dropdown-content {
+  z-index: 10;
+}
+
+.flashsale-item {
+  box-shadow: 0px 2px 10px rgb(223, 222, 222);
+}
+
+.flashsale-item:hover {
+    box-shadow: 0px 2px 10px #a4b07c;
+  }
+
+.flashsale-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.flashsale-detail-info {
+  padding: 7px 7px;
+}
+
+.flashsale-detail-info h6 {
+  font-size: 14px;
+}
+
+.flashsale-detail-info span {
+  font-size: 12px;
+}
+
+.flashsale-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flashsale-detail-info span:nth-child(2) {
+  color: rgb(190, 184, 184);
+}
+
+.header-content {
+    font-size: 25px;
+    color: #fcce22;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.flashsale-part {
+    box-shadow: 0px 2px 10px rgb(223, 222, 222);
+    margin: 70px 100px;
+    padding: 15px 20px 30px 20px;
+}
+
+.category-item {
+    position: relative;
+    height: 300px;
+}
+
+.category-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.category-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.category-info {
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px ;
+}
+
+.category-info h3 {
+    font-weight: bold;
+}
+
+.category-info a {
+    margin-top: 70px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 0.5px solid white;
+    padding: 10px 20px;
+    transition: ease-in 0.2s;
+}
+
+.category-info a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}       
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.content-header span {
+    cursor: pointer;
+}
+
+.product-recommend {
+    margin: 70px 0px;
+}
+
+.product-rec-item {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgb(223, 222, 222);
+    margin: 15px 0px;
+}
+
+.product-rec-item:hover .product-rec-cart {
+    margin-right: 15px;
+}
+
+.product-rec-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.product-rec-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+
+.product-rec-left {
+    padding: 15px 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.new-price {
+    color: rgb(210, 53, 53);
+    margin-left: 10px;
+    display: inline-block;
+} 
+
+.product-rec-cart {
+    background-color: #4b591e;
+    padding: 17px 18px;
+    border-radius: 50%;
+    margin-right: -100px;
+    transition: ease-in 0.5s;
+}
+
+.product-rec-cart a {
+    text-decoration: none;
+}
+
+.product-rec-cart i {
+    color: white;
+}
+
+.best-research {
+    margin: 70px 0px;
+}
+
+.research-list {
+    box-shadow: 0px 2px 10px rgb(223, 222, 222);
+    padding: 20px 20px;
+}
+
+.product-research img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.product-research-info {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.product-research-info span {
+    font-size: 14px;
+}
+
+.inspire {
+    margin-bottom: 70px;
+}
+
+.inspire-item {
+    margin: 15px 0px;
+    position: relative;
+}
+
+.inspire-item:hover .inspire-overlay, .inspire-item:hover .inspire-viewmore a {
+    cursor: pointer;
+    transition: ease-in 0.4s;
+    opacity: 1;
+}
+
+.inspire-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+}
+
+.inspire-viewmore {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.inspire-viewmore a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 0.5px solid white;
+    display: inline-block;
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+.inspire-item img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #fcce22;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.policy-list {
+    color: #4b591e !important;
+    padding: 30px 0px;
+}
+
+.policy-list ul li{
+    padding: 10px 0px;
+    display: block;
+    list-style: none;
+    float: none;
+}
+
+.policy-list ul li a {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0px;
+    color: #4b591e !important;
+}
+
+.footer-logo img:nth-of-type(1) {
+    width: 100px;
+}
+
+.footer-logo img:nth-of-type(2) {
+    width: 180px;
+    margin-left: 15px;
+}
+
+.footer-address iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.footer-address p {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.address-contact {
+    margin-top: 15px;
+}
+
+.follow h5 {
+    margin: 20px 0px;
+}
+
+.follow a {
+    text-decoration: none;
+    color: #4b591e !important;
+}
+
+.follow a i{
+    text-decoration: none;
+    color: grey !important;
+    margin-right: 8px;
+}
+
+.footer-nav {
+    background-color: #4b591e;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-nav p {
+    margin-bottom: 0;
+}
+
