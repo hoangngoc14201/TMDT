@@ -157,8 +157,7 @@ li {
   display: block;
 }
 .background {
-    background-image: url("/assets/images/e13b62ede88caafff7b9c2a41afcc92f.jpg");
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
